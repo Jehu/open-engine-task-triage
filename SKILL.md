@@ -95,10 +95,11 @@ Use `AGENT HUMAN HOLD` only for private operator-thread requirements such as loc
 
 ## Refinement checklist
 
-Use the Open Engine task-writing guide when available:
+Use the bundled Open Engine task-writing guide:
 
-- `open-engine-plane-runner/references/task-writing-guide.md`
-- `export/open-engine-plane-runner/references/task-writing-guide.md`
+- `references/task-writing-guide.md`
+
+The triage skill must remain self-contained so Hermes, Agent Zero, Claude Code, or another runtime can install it without also installing `open-engine-plane-runner`.
 
 Every refined agent task should include, or explicitly mark as not needed:
 

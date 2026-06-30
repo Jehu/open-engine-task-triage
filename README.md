@@ -51,10 +51,11 @@ may become:
 
 - [`SKILL.md`](./SKILL.md) — main reusable skill instructions
 - [`references/backlog-triage-policy.md`](./references/backlog-triage-policy.md) — compact decision table and issue template
+- [`references/task-writing-guide.md`](./references/task-writing-guide.md) — bundled agent-ready task writing guide
 
 ## Relationship to open-engine-plane-runner
 
-This repository is intentionally separate from [`open-engine-plane-runner`](https://github.com/Jehu/open-engine-plane-runner).
+This repository is intentionally separate from [`open-engine-plane-runner`](https://github.com/Jehu/open-engine-plane-runner) and is self-contained for triage use.
 
 - `open-engine-plane-runner` is for runtime queue processing and Plane helper scripts.
 - `open-engine-task-triage` is for improving Backlog issues before execution.
